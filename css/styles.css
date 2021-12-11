@@ -126,73 +126,73 @@ a:hover {
 @media (min-width: 768px) {
 
 
-    header {
-    padding:30px 20px 50px;
+  header {
+  padding:30px 20px 50px;
+}
+
+  header ul li {
+  display: inline-block;
+  width: 15vw;
+  justify-content: space-between;
+  background: none;
+}
+  header p, footer p, footer ul {
+  font-size: 20px;
+  }
+  header p {
+    text-align: left;
+    padding: 0px;
+  }
+  #profile-img {
+    margin-left: 20px;
+    float: right;
+    width: 40%;
   }
 
-    header ul li {
+  .main  {
+    color:dimgrey;
+  }
+
+  main p {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  #portfolio {
+    margin: 50px auto;
+    color: black;
+  }
+
+  .project {
+    margin: 0px 3px;
+    width: 350px;
+    height: 460px;
     display: inline-block;
-    width: 15vw;
-    justify-content: space-between;
-    background: none;
+
   }
-    header p, footer p, footer ul {
-    font-size: 20px;
-    }
-    header p {
-      text-align: left;
-      padding: 0px;
-    }
-    #profile-img {
-      margin-left: 20px;
-      float: right;
-      width: 40%;
-    }
 
-    .main  {
-      color:dimgrey;
-    }
-
-    main p {
-      font-size: 15px;
-      padding: 10px;
-    }
-
-    #portfolio {
-      margin: 50px auto;
-      color: black;
-    }
-
-    .project {
-      margin: 0px 3px;
-      width: 350px;
-      height: 460px;
-      display: inline-block;
-
-    }
-
-    .project img {
-      width: 100%;
-    }
-
-    footer li, footer p {
-      font-weight: 100;
-    }
-
-    #backtotop {
-      display: none;
-    }
-
-
-    .bottom-nav {
-      display: flex;
-      margin: 0 15px;
-    }
-
-    #name {
-      margin-right: auto;
-    }
+  .project img {
+    width: 100%;
   }
+
+  footer li, footer p {
+    font-weight: 100;
+  }
+
+  #backtotop {
+    display: none;
+  }
+
+
+  .bottom-nav {
+    display: flex;
+    margin: 0 15px;
+  }
+
+  #name {
+    margin-right: auto;
+  }
+}
 
 @media (min-width: 1024px) {
 
